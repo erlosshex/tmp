@@ -1,0 +1,34 @@
+#include <iostream>
+
+struct BT{
+  int data;
+  struct BT *left;
+  struct BT *right;
+};
+
+bool isSameBinaryTree(BT *pa, BT *pb)
+{
+  if(nullprt==pa && nullptr==pb){
+    return true;
+  }else if(nullptr==pa || nullptr==pb){
+    return false;
+  }else{
+    if(pa->data!=pb->data){
+      return false;
+    }else{
+      bool res_left=isSameBinaryTree(pa->left,pb->right);
+      bool res_right=isSameBinaryTree(pa->right,pb->right);
+      if(res_left==true && res_right==true){
+        return true;
+      }else{
+        return false;
+      }
+    }
+  }
+}
+
+
+int main(int argc, char **argv)
+{
+  return 0;
+}
