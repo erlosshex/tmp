@@ -27,3 +27,39 @@
 (defun dump-db ()
   (dolist (cd *db*)
     (format t "~{~a: ~10t~a~%~}~%" cd)))
+
+(defun save-db (filename)
+  (with-open-file (out filename
+		       :direction :output
+		       :if-exists :supersede)
+    (with-standard-io-syntax
+      (print *db* out))))
+
+(defun load-db (filename)
+  (with-open-file (in filename)
+    (with-standard-io-syntax
+      (setf *db* (read in)))))
+
+(defun make-comparison-expr (field value)
+  `(equal (getf cd ,field) ,value))
+
+(defun make-comparisons-list (fields)
+  (loop while fields
+       collecting (make-comparison-expr (pop fields) (pop fields))))
+
+(defmacro where (&rest clauses)
+  `#'(lambda (cd) (and ,@(make-comparisons-list clauses))))
+
+(defun select (selector-fn)
+  (remove-if-not selector-fn *db*))
+
+(defun update (selector-fn &key title artist rating (ripped nil ripped-p))
+  (setf *db*
+	(mapcar
+	 #'(lambda (row)
+	     (when (funcall selector-fn row)
+	       (if title (setf (getf row :title) title))
+	       (if artist (setf (getf row :artist) artist))
+	       (if rating (setf (getf row :rating) rating))
+	       (if ripped-p (setf (getf row :ripped) ripped)))
+	     row)*db*)))
