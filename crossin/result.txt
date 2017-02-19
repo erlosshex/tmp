@@ -1,0 +1,4 @@
+gejianliang	: 200
+gugaosheng	: 214
+zhoumengxuan	: 376
+zhuguoce	: 100
