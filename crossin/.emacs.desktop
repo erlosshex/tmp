@@ -1,0 +1,32 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Feb 20 20:56:52 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22698 59284 327076 256000) (desktop . "206") "mwn@mwn-dell" nil nil ((((font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#ffffff") (background-color . "#002451") (mouse-color . "black") (border-color . "#003f8e") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#ff9da4") (sticky) (environment) (frameset--id . "6BA3-5FE4-01C3-13EC") (frameset--mini t . t) (height . 35) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 815) (top . 271) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 738) (pixel-height . 612) (total-width . 82) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("^" "^shell" "^te" "^lin" "^load" "^clean" "^slime" "^colo"))
+(setq face-name-history nil)
+(setq file-name-history '("/home/mwn/codes/git/tmp/crossin/" "/home/mwn/codes/git/tmp/BLP/2/12" "/home/mwn/codes/git/tmp/BLP/2/11" "/home/mwn/codes/git/tmp/BLP/2/10" "/home/mwn/codes/git/tmp/BLP/2/9" "/home/mwn/codes/git/tmp/BLP/2/8" "/home/mwn/codes/git/tmp/BLP/2/7" "/home/mwn/codes/git/tmp/BLP/2/6" "/home/mwn/codes/git/tmp/BLP/2/5" "/home/mwn/codes/git/tmp/BLP/2/4" "/home/mwn/codes/git/tmp/BLP/2/1" "/home/mwn/codes/git/tmp/BLP/2/" "/home/mwn/codes/git/tmp/BLP/" "/home/mwn/codes/git/tmp/BLP/3" "~/codes/git/tmp/BLP/2" "/home/mwn/codes/git/tmp/crossin/lesson30.py" "/home/mwn/codes/git/tmp/crossin/lesson29.py" "/home/mwn/codes/git/tmp/crossin/lesson29" "/home/mwn/codes/git/tmp/crossin/lesson28.py" "/home/mwn/codes/git/tmp/crossin/lesson27.py" "/home/mwn/codes/git/tmp/crossin/lesson26.py" "/home/mwn/codes/git/tmp/crossin/lesson25.py" "/home/mwn/codes/git/tmp/crossin/lesson24.py" "/home/mwn/codes/git/tmp/crossin/lesson23.py" "/home/mwn/codes/git/tmp/crossin/lesson22.py" "/home/mwn/codes/git/tmp/crossin/lesson20.py" "/home/mwn/codes/git/tmp/crossin/lesson21.py" "/home/mwn/codes/git/tmp/crossin/lesson19.py" "/home/mwn/codes/git/tmp/crossin/lesson18.py" "/home/mwn/codes/git/tmp/crossin/lesson17.py" "/home/mwn/codes/git/tmp/crossin/lesson16.py" "/home/mwn/codes/git/tmp/crossin/lesson15.py" "/home/mwn/codes/git/tmp/crossin/lesson14.py" "/home/mwn/codes/git/tmp/crossin/lesson13.py" "/home/mwn/codes/git/tmp/crossin/lesson12.py" "/home/mwn/codes/git/tmp/crossin/lesson11.py" "/home/mwn/codes/git/tmp/crossin/lesson10.py" "/home/mwn/codes/git/tmp/crossin/lesson9.py" "/home/mwn/codes/git/tmp/crossin/lesson8.py" "/home/mwn/codes/git/tmp/crossin/lesson7.py" "/home/mwn/codes/git/tmp/crossin/lesson6.py" "~/codes/tmp/hello.s" "~/codes/git/tmp/crossin/lesson3.py" "~/codes/CL/PCL/cd.lisp" "/home/mwn/codes/BLP/1/1.cpp" "/home/mwn/codes/CL/PCL/cd.lisp" "~/codes/Cpp/tst.c" "/home/mwn/codes/Cpp/" "/home/mwn/codes/Cpp/example.c" "/home/mwn/codes/Cpp/first.cpp" "~/codes/CL/PCL/tmp.lisp" "~/codes/Scheme/first.scm" "~/codes/CL/say-hello.lisp" "~/codes/tmp/tmp.cpp" "~/codes/tmp/copy.c" "~/codes/tmp/copy" "/home/mwn/codes/CL/say-hello.lisp" "/home/mwn/codes/Scheme/first.scm" "~/.emacs.d/games/tetris-scores" "/home/mwn/codes/CL/PCL/tmp.lisp" "/home/mwn/codes/Scheme/" "/home/mwn/.bashrc" "~/codes/PyQt5/first.py" "~/codes/CL/PCL/first.lisp" "/home/mwn/codes/PyQt5/first.py" "/home/mwn/codes/CL/PCL/first.lisp" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ivy-history '("*shell*" "say-hello.lisp" "tmp.lisp" "*slime-repl sbcl*" "first.scm" "w3m" "first.lisp"))
+(setq minibuffer-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring '("mirror"))
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
